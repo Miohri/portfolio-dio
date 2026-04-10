@@ -9,41 +9,110 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
 </head>
 
 <body>
-    <div class="main">
+    <main>
         <header class="header">
             <img src="/assets/img/perfil.png" alt="Foto de Marcella Fiori de Oliveira" class="photo">
-
             <h1 class="title">Olá, <br>eu sou a Marcella</h1>
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                    Skills
-                </span>
+                <h2>Skills</h2>
             </button>
 
             <div class="content">
-                <h3>Habilidades profissionais:</h3>
-                <ul>
-                    <li>Teste</li>
+
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Clone Youtube</h3>
+                        <a href="https://github.com/Miohri/desafio-clone-youtube"
+                            target="_blank">https://github.com/Miohri/desafio-clone-youtube</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Clone Discord</h3>
+                        <a href="https://github.com/Miohri/desafio-clone-discord"
+                            target="_blank">https://github.com/Miohri/desafio-clone-discord</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Clone HBO Max</h3>
+                        <a href="https://github.com/Miohri/hbomax/tree/template-desafio"
+                            target="_blank">https://github.com/Miohri/hbomax/tree/template-desafio</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">To-do List</h3>
+                        <a href="https://github.com/Miohri/todolist-avanti-innovation-class"
+                            target="_blank">https://github.com/Miohri/todolist-avanti-innovation-class</a>
+                    </li>
                 </ul>
             </div>
         </section>
 
-    </div>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
 
-    <script src="/assets/js/acordeon.js"></script>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Freelance / Outlier</h3>
+                        <p class="period">dez/2024 – atual</p>
+                        <p>Atuo como freelancer na análise de respostas geradas por sistemas de inteligência artificial,
+                            identificando erros, inconsistências e falhas lógicas. Realizo a validação de dados e
+                            forneço feedback técnico estruturado, contribuindo diretamente para a melhoria da qualidade,
+                            confiabilidade e desempenho dos modelos. Também apoio processos de avaliação contínua,
+                            auxiliando no aprimoramento de plataformas baseadas em IA.</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Freelance / Pró-Mídia</h3>
+                        <p class="period">jul/2021 – atual</p>
+                        <p>Presto serviços voltados à manutenção, otimização e desenvolvimento de sites, realizando
+                            ajustes em HTML e CSS para correção de erros e melhoria estrutural das páginas. Atuo na
+                            criação de landing pages e conteúdos digitais com foco em SEO, além de otimizar desempenho e
+                            usabilidade para melhor posicionamento nos mecanismos de busca. Também participo da produção
+                            de conteúdo estratégico para blogs, páginas institucionais e redes sociais, garantindo a
+                            visibilidade online e o bom funcionamento dos sites.</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Atendimento ao Cliente / Cancuners</h3>
+                        <p class="period">nov/2019 – out/2022</p>
+                        <p>Atuei no atendimento ao cliente com apoio de sistemas de CRM, organizando demandas e
+                            estruturando informações para melhorar o controle e a recuperação de dados. Contribuí para a
+                            padronização de processos e fluxos de comunicação, além de colaborar na criação de conteúdos
+                            para redes sociais, blogs e landing pages com foco em SEO. Também participei da organização
+                            do atendimento, buscando maior eficiência na comunicação com os clientes.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <script src="/assets/js/acordeon.js"></script>
+    </main>
+
+
 </body>
 
 </html>
